@@ -1,0 +1,27 @@
+environment:
+  intEnv:
+    env_name: intEnv
+    baseUriGetWeather: https://samples.openweathermap.org/data/2.5/weather
+    countryParameterName: q
+    countryName : London,uk
+    appIdParameterName: appid
+    appId: b1b15e88fa797225412429c1c50c122a1
+    active: true
+
+  testEnv:
+    env_name: testEnv
+    baseUriGetWeather: https://samples.openweathermap.org/data/2.5/weather
+    countryParameterName: q
+    countryName: Warsaw,pl
+    appIdParameterName: appid
+    appId: b1b15e88fa797225412429c1c50c122a1
+    active: false
+
+  defaultEnv:
+    env_name: defaultEnv
+    baseUriGetWeather: https://samples.openweathermap.org/data/2.5/weather
+    countryParameterName: q
+    countryName: London,uk
+    appIdParameterName: appid
+    appId: b1b15e88fa797225412429c1c50c122a1
+    active: false
