@@ -6,6 +6,8 @@ environment:
     countryName : London,uk
     appIdParameterName: appid
     appId: b1b15e88fa797225412429c1c50c122a1
+    cityName: London
+    cloudsLevel: 90
     active: true
 
   testEnv:
@@ -15,6 +17,8 @@ environment:
     countryName: Warsaw,pl
     appIdParameterName: appid
     appId: b1b15e88fa797225412429c1c50c122a1
+    cityName: London
+    cloudsLevel: 90
     active: false
 
   defaultEnv:
@@ -24,4 +28,6 @@ environment:
     countryName: London,uk
     appIdParameterName: appid
     appId: b1b15e88fa797225412429c1c50c122a1
+    cityName: London
+    cloudsLevel: 90
     active: false
