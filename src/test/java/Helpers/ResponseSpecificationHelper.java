@@ -9,7 +9,6 @@ public class ResponseSpecificationHelper {
         ResponseSpecification responseSpecification = RestAssured.expect();
         responseSpecification.statusCode(statusCode);
         responseSpecification.contentType(ContentType.JSON);
-        responseSpecification.statusLine(System.getProperty("statusLine"));
         return responseSpecification;
     }
 }
